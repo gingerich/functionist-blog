@@ -6,7 +6,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Functionist`,
+    siteTitleAlt: `Functionist Blog`,
+    siteHeadline: `Functionist - An inquiry into the practice of software development`,
+    siteUrl: `https://functionist.gingerich.io`,
+    siteDescription: `A living chronology of rhetorical artifacts seeking to discover how a love for programming is lost and how to get it back.`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `@gingerich`,
   },
   plugins: [
     {
@@ -24,14 +31,6 @@ module.exports = {
           },
         ],
         externalLinks: [
-          {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
-          },
         ],
       },
     },
@@ -45,9 +44,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `functionist-blog - @gingerich/functionist-blog`,
+        short_name: `functionist-blog`,
+        description: `An inquiry into the practice of software development.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
