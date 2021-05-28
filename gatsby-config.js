@@ -7,7 +7,7 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 module.exports = {
   siteMetadata: {
     siteTitle: `Functionist`,
-    siteTitleAlt: `Functionist Blog`,
+    siteTitleAlt: `Functionist`,
     siteHeadline: `Functionist - An inquiry into the practice of software development`,
     siteUrl: `https://functionist.gingerich.io`,
     siteDescription: `A living chronology of rhetorical artifacts seeking to discover how a love for programming is lost and how to get it back.`,
